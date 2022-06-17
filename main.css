@@ -1,6 +1,7 @@
 cd tra
 body{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .mi{
@@ -421,7 +422,6 @@ hr{
         font-size: 40px;
     }
 }
-}
 
 @media all and (max-width: 1153px){
     .temoignage {
@@ -433,7 +433,6 @@ hr{
     h2 {
         font-size: 40px;
     }
-}
 }
 
 @media all and (max-width: 1072px){
@@ -644,7 +643,7 @@ hr{
         height: 77vh !important;
     }
  }
-
+/*continué à partir d'ici*/
  @media all and (max-width: 750px){
     .title_section1 {
         font-size: 14px !important;
@@ -739,6 +738,53 @@ hr{
     .image_blue {
         width: 76%;
     }   
+    #partenaires {
+        margin-left: 1%;
+        margin-right: 27%;
+    }
+    .nos_partenaire_logo{
+        width: 94px;
+    }
+    frame {
+        width: 77%;
+        height: 350px !important;
+    }
+    fieldset{
+        width: 527px;
+        border: none;
+    }
+    footer{
+        width: 560px
+    }
+    .footer_right p, .footer_right p {
+        font-size: 9px;
+        width: 60px
+    }
+    .reseau3 {
+        /*padding: 0%;*/
+        margin-left: 2%;
+    }
+    .facebook p {
+        width: 62px;
+    }
+    .facebook{
+        width: 50px !important;
+    }
+    hr {
+        height: 158px;
+        margin-left: 0px;
+         margin-right: 0px;
+          margin-top: 0px;
+    }
+    footer {
+    height: 160px;
+    }
+    .mi_install{
+        width: 167px
+    }
+    .messager_right{
+        width: 30px;
+    }
  }
 
  @media all and (max-width: 1307px) {
