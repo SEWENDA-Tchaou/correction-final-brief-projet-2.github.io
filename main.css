@@ -393,7 +393,10 @@ hr{
 
 @media all and (max-width: 1307px){
     .mi {
-        height: 52vh;
+        height: 100vh
+    }
+    .title_section1 {
+        margin-top: 303px;
     }
     .logo {
         width: 40px;
@@ -408,11 +411,48 @@ hr{
         width: 30px;
         height: 30px;
     }
+    #partenaires {
+        margin-top: 6%;
+    }
+    .our_contacts {
+        width: 18%;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
 }
 
+@media all and (max-width: 1153px){
+    .temoignage {
+        width: 280px;
+    }
+    .temoin1{
+        width: 280px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+}
+
+@media all and (max-width: 1072px){
+    .temoin1{
+        width: 260px;
+    }
+    .temoignage{
+        width: 260px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
 @media all and (max-width: 1037px){
     .mi {
-        height: 29vh;
+        height: 100vh;
+    }
+    .title_section1 {
+        margin-top: 430px;
     }
     #en-tête {
         height: 89px;
@@ -443,6 +483,11 @@ hr{
     /*h2 {
          font-size: none; 
     }*/
+    .temoignage{
+        background-color: #c4c4c4;
+        width: 246px;
+         height: 232px;
+    }
     .temoin1{
         width: 246px;
         height: 226px;
@@ -450,6 +495,9 @@ hr{
     .btn-1{
         margin-left: 37%;
     } 
+    h2 {
+        font-size: 40px;
+    }
     .our_contacts{
         background-color: white;
         width: 27%;
@@ -470,9 +518,14 @@ hr{
         height: 225px;
     }
 }
-========================================
+
 @media screen and (max-width: 980px) {
-     
+    .mi {
+        height: 70vh;
+    }
+    .title_section1 {
+        margin-top: 277px;
+    }
    /* header{
         background-image: url('img/maintenancier.jpg');
         height: 100vh;
@@ -500,10 +553,10 @@ hr{
     }
 
     .temoignage{
-        /*width: 256px;*/
-        margin-left: 10px;
+         background-color: #c4c4c4;
+         width: 220px;
+         height: 235px;
     }
-
     .temoignage_bloc1{
         flex-wrap: wrap;
     }
@@ -512,11 +565,11 @@ hr{
     }
 
     .temoin1{
-        width: 240px;
+        width: 220px;
     }
 
     .image_blue{
-        height: 16vh !important;   
+        height: 90vh !important;   
     }
 /*
     input{
@@ -527,7 +580,9 @@ hr{
         margin-right: 8px;
         width: 30px;
     }*/
-
+    h2 {
+        font-size: 24px;
+    }
     .our_contacts{
         background-color: white;
         width: 25%;
@@ -547,15 +602,145 @@ hr{
         border: 1px solid #1565D4;
         margin-top: 4%;
     }
+    .important_partenaires{
+        position: relative;
+        top: 7px;
+    }
 
     #partenaires{
         display: flex;
         justify-content: space-between;
-        margin-left: 0%;
-        margin-right: 20%;
-        margin-top: 10%;
+        margin-left: 11%;
+        margin-right: 11%;
+        margin-top: 7%;
     }
  }
+ @media all and (max-width: 937px){
+    .our_contacts{
+        margin-left: 0%;
+    }
+    .our_contacts {
+        padding-left: 10px;
+    }
+    .message{
+        width: 31px;
+    }
+    .whatsapp_contact{
+        width: 45px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+ }
+
+ @media all and (max-width: 861px){
+    .our_contacts p{
+        font-size: 12px;
+    }
+    .our_contacts{
+        height: 285px;
+    }
+    .image_blue {
+        height: 77vh !important;
+    }
+ }
+
+ @media all and (max-width: 750px){
+    .title_section1 {
+        font-size: 14px !important;
+        margin-right: 150px;
+    }
+    .pc_repair{
+        width: 115px;
+         height: 115px;
+    }
+    .our_services {
+        display: flex;
+        justify-content: unset;
+        margin-top: 10%;
+        margin-left: 74px;
+    }
+    .services2, .services_parc {
+        margin-top: 0px !important;
+        margin-left: 35px;
+    }
+    .services1 p, .services2, .services_parc {
+        font-size: 10px;
+    }
+    .services1{
+        height: 160px
+    }
+    .devices{
+        width: 127px;
+        height: 100px
+    }
+    .services2, .services_parc {
+        margin-top: 0px;
+    }
+    .img_parc{
+        width: 120px;
+        height: 90px;
+    }
+    .services_parc {
+        font-size: 9px !important;
+    }
+    .logo{
+        margin-left: 16px
+    }
+    a{
+        font-size: 18px;
+    }
+    nav{
+        margin-right: 36px
+    }
+    .section2 {
+        margin-left: 4%;
+        margin-right: 26%;
+        margin-top: 10%;
+    }
+    .image_depannage {
+        margin-left: 29px
+    }
+    .section3 {
+        margin-right: 27%;
+        margin-left: 4%;
+    }
+    .title_installation {
+        margin-left: 20px;
+    }
+    .section4 {
+        margin-right: 14%;
+        margin-left: 4%;
+    }
+    .conseil-informatique-picto2 {
+        margin-top: 108px;
+        margin-left: 7px;
+    }
+    #en-tête {
+        display: flex;
+        background-color: #a21818;
+        margin-top: -65px;
+        width: 74vw;
+        height: 95px;
+    }
+    .temoignage_bloc {
+        padding-left: 0%;
+        padding-right: 10%;
+    }   
+    .temoin1 {
+        width: 162px;
+    }
+    .temoignage {
+        width: 162px;
+    }
+    .temoignage_bloc1 {
+        margin-right: 100px;
+    }
+    .image_blue {
+        width: 76%;
+    }   
+ }
+
  @media all and (max-width: 1307px) {
      header{
         background-image: url('img/maintenancier.jpg') ;
